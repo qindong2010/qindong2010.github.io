@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Event invite</title>
+        <style>
+            body {
+                width:600px;
+            }
+            #bgPic {
+                position: fixed;
+                opacity: 0.25;
+                z-index:-1
+            }
+            
+            #header {
+                float:right;
+                margin-top:10px;
+                margin-right:15px;
+                font-family:cursive;
+                line-height: 30px;
+            }
+            h1 {
+                color:rgb(124, 14, 235);
+                font-size:2.8em;
+            }
+            h2 {
+                color:rgb(223, 89, 247);
+                font-size:2em;
+            }
+            #santa {
+                margin-top:15px;
+                margin-left:20px;
+            }
+            #activities {
+                margin-left:10px;
+                width:330px;
+                color:rgb(19, 177, 245);
+                font-family:sans-serif;
+                font-style:italic;
+                font-size:120%;
+                position:fixed;
+            }
+            #VIPs {
+                margin-right:10px;
+                margin-top:-25px;
+                float:right;
+                color:blue;
+                font-family:monospace;
+                font-size: 120%;
+                font-style:italic;
+                width:300px;
+            }
+            #foot {
+                position:relative;
+                top:170px;
+                left:180px;
+                font-family:fantasy;
+                font-size:130%;
+                color:red;
+            }
+        </style>
+    </head>
+    <body>
+        <img id="bgPic" src="web_images/InvitationBG.webp" width="600">
+        <img id="santa" src="web_images/WoodAcresMap.png" width="200">
+        <div id="header">
+            <h1>You're invited!</h1>
+            <h2>Christmas Eve Party!</h2>
+        </div>
+        <div id="activities">
+            <p>What're catered at the party?</p>
+            <ul>
+                <li>Seafood buffet dinner!</li>
+                <li>Board games, chess, go, checkers, you name it!</li>
+                <li>VR experience!</li>
+                <li>A local band rendering soft rock!</li>
+            </ul>
+        </div>
+        <div id="VIPs">
+            <p>Who are the <strong>BIG NAMES</strong> among the invitees?</p>
+            <ul>
+                <li>Dr. Indiana Jones</li>
+                <li>Sir Monte Cristo</li>
+                <li>Pres. Donald Trump</li>
+            </ul>
+            <p>They will all address the party!</p>
+        </div>
+        <p id="foot">Don't gorget to <a href="mailto:whoami@unknown.net">RSVP</a> by Dec 10!</p>
+    </body>
+</html>
